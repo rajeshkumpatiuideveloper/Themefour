@@ -1,0 +1,68 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    line-height: 24px;
+}
+a{
+    text-decoration: none;
+}
+table,tr,td{
+    border-collapse: collapse;
+}
+table {
+    width: 100%;
+    margin: 20px 0px;
+}
+.banner-block {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+.banner-block h1{
+    color: #ffff;
+    font-size: 60px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 15%;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.banner-block p, .content_heading p {
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    margin:20px  0px;
+}
+.banner-block tr{
+    display: block;
+}
+.banner-block td {
+    display: block;
+}
+.content_heading{
+    text-align: center;
+}
+.content_heading h1{
+    color: #000;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.content_heading p {
+    color: #000;
+    margin-top: 0px;
+}
+.person_details{
+    text-align: center;
+}
+.person_details tr, .person_details td, .person_details th{
+    padding: 15px;
+}
+.person_details thead tr{
+    border-bottom: 1px solid #cccccc;
+}
+.logo{
+    width: 100px;
+}
